@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+/*
+	Nome: Estilo da Home 
+	Data: 22/01/2017
+	Descrição:  Versão inicial. 
+	Versão: 0.1
+	Autor: Tamires
+	Autor URI:  www.villagioipanema1.com.br
+*/
+
+			*{
+				margin: 0;
+				padding:0;
+			}
+			a,h2,h3,h1{
+				font-family: "Alegreya"; 
+			}
+
+			.menu-principal{
+				height: 70px;
+				width: 100%;
+				background: rgb(151,139,115);
+				position: fixed;
+				z-index:2;
+				top:0;
+				right: 0;
+				left:0;
+			}
+			.menu-principal ul{
+				list-style:none;
+				font-size: 26px;
+				margin: 30px 30px 25px 50px;			
+				float: right;
+			}
+			.menu-principal ul li{
+				display: inline;
+				color: #fff;
+				border-right: 3px solid yellow;
+				padding-right: 5px;
+			}
+			.menu-principal ul li a{
+				color: #fff;
+				text-decoration: none;
+			}			
+			.menu-principal img{
+				width: 97px;
+				margin-left: 0px;
+			}
+			.cabecalho {
+				margin-top: 70px;
+				margin-bottom: 30px
+			}
+			.cabecalho img{
+				margin: 0 auto;	
+				text-align: center;	
+				display: block;
+				width: 100%;
+			}
+
+			.controlando-menu {
+				margin-top: 0px;
+				display: inline;
+			}
+			main h1{
+				background: rgb(250,150,120);
+				text-align: center;
+
+			}
+			main p{
+				background: rgb(250,150,120);
+				margin-top: 10px;
+				font-size: 18px;	
+				padding:50px;
+				margin:0 auto;
+				text-align: justify;
+			}
+
+			section {
+				margin-right: 5px;
+				background: rgb(193,170,132);
+				width: 75%;
+				float: left;
+			}
+			section h2{
+				text-align: center;
+			}
+			section h3{
+				text-align: center;
+				padding-top: 30px;
+				padding-bottom: 20px;
+			}			
+			.noticias {
+				padding-top: 35px;
+				padding-right: 10px;
+				border-right: 3px solid brown;
+				
+			}
+			.noticias img {
+				display: block;
+				width: 70%;
+				margin: 0px auto;
+			}
+			.noticias p {
+				margin: 5px auto;
+				text-align: center;
+			}
+			.noticias a {
+				margin: auto;
+				display: inline;
+				text-align: center;
+			}
+
+			.video {
+				margin: 20px 70px;
+				width: 70%; 
+				height: auto; 
+				border-right: 3px solid brown;
+			}
+
+			.eventos {
+				border-right: 3px solid brown;
+
+			}
+			.eventos img {
+				display: block;
+				width: 70%;
+				margin: 0px auto;
+			}
+			.eventos p {
+				margin: 5px 60px;
+				text-align: center;
+			}
+
+			aside {
+				float: right;
+				width: 23%;
+			}
+
+			.enquete {
+
+			}
+
+			
+			.rodapePrincipal{
+				text-align: center;
+				display: inline;
+								
+			}
+
+			h6 {
+				font-family: 'Indie Flower';
+			
+			}

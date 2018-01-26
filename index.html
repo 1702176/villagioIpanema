@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<title>Condomínio Villagio Ipamena 1</title>
+		<meta name="description" content="Em 2018, foi liberado para a construção o condomínio Villagio Ipanema. Localizado próximo à Cruz de Ferro da Avenida Ipanema, o condomínio possui" />
+	    <meta name="keywords" content="condomínio, associação de morador, Villagio Ipamena" />
+	    <meta name="author" content="Tamires Araujo" />
+		<link rel="icon" type="image/jpg" href="logo.jpg" />
+		<link rel="stylesheet" type="text/css" href="css/estiloprincipal.css" />	
+		<!--<link rel="stylesheet" type="text/css" href="css/estilow500.css" media="only screen and (max-width: 500px);" />	
+		<link rel="stylesheet" href="print.css" type="text/css" media="print"> -->
+
+		
+	</head>
+	<link type="image/png" href="img/icon.png" rel="shortcut icon" />
+
+	<body> 
+		<nav class = "menu-principal">
+			<img src="img/logo.jpg" alt="Logo do Condomínio"/>
+			<input type="checkbox" id="control-nav"/>
+			<label for="control-nav" class="control-nav"></label>
+			<label for="control-nav" class="control-nav-close"></label>
+			<nav class="controlando-menu">
+			<ul>
+				<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+				<li><a href="pg/sobre.html"><i class="fa fa-user-o" aria-hidden="true"></i> Área do Morador</a></li>
+				<li><a href="#contato"><i class="fa fa-envelope-open-o" aria-hidden="true"></i> Fale com o corpo diretivo</a></li> 
+			</ul>
+		</nav>
+		</nav>
+
+		<header class="cabecalho">
+			<div id="slideshow">
+				<img src="img/portaria1.jpg" alt="Portaria" class="img imagem-um exibe" />
+				<!--<img src="img/portaria2.jpg" alt="Portaria" class="img imagem-dois esconde" />-->
+			</div>
+			<div class="navegacao-slider" id="navegacao-slider">
+				<a href="#" class="anterior"  onclick="trocarImg();" >&laquo;</a>
+				<a href="#" class="proximo" onclick="trocarImg();">&raquo;</a>		
+			</div>		
+		</header>
+		<main>
+			<h1> Condomínio Villágio Ipanema 1</h1>
+			<p>Localizado no final da Avenida Ipanema, preservado do caos urbano e ao mesmo tempo tão perto de tudo. É um loteamento fechado com 115.000m² somente de reserva ambiental. Possui terrenos residenciais e terrenos comerciais em torno do loteamento. Um lugar muito especial para construir seu sonho e com valorização permanente.</p>
+		</main>
+		<section class="estrutura">
+			<h2>Informações Importantes para os Condôminos</h2>
+			<article class="noticias">
+				<h3>Notícias</h3>
+				<img src="img/noticia.jpg" alt="Setor de IPTU" />
+				<footer>
+					<p>Processo de Liberação do condomínio avança e encontra-se no Setor de IPTU junto à prefeitura</p><br>
+					<a href="http://www.sorocaba.sp.gov.br/">Saiba Mais</a>
+				</footer>
+				
+			</article>
+				<h3>Vídeo Institucional</h3>
+			<article class="video">
+				<video autoplay loop poster="imagem/logo.jpg" class="video" controls="">
+ 				<source src="video/videoa.mp4" type="video/mp4">
+ 				<
+				</video> 
+			</article>
+			<article class="eventos">
+				<h3>Eventos</h3>
+				<img src="img/carnaval.jpg" alt="imagem de carnaval" />
+				<p>No sábado de carnaval, haverá um bloco com música e brincadeiras dentro do condomínio. O bloco carnavalesco percorrerá as principais ruas, levando diversão e alegria a partir das 18h00.</p>
+			</article>	
+
+			<article class="localização">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.273682803539!2d-47.5157148851378!3d-23.45059048473803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f46eba24b1b1%3A0x89b0975ae3732244!2siron+Cross!5e0!3m2!1sen!2sbr!4v1516660440890" width= 100% height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</article>		
+		</section>
+
+		<aside>
+
+			<article class="previsaoempo">
+				<iframe scrolling="no" frameborder="0" marginwidth="0" marginheight="0" width="120" height="170" src="https://selos.climatempo.com.br/selos/MostraSelo120.php?CODCIDADE=544,557&SKIN=padrao"></iframe>
+			</article>
+
+
+
+			<article class="enquete">
+				<!-- Início Código Enquete -->
+			<script type="text/javascript">
+	(function() {
+		window.__DOMINIO_CE = 'http://www.criarenquete.com.br';
+		var ce = document.createElement('script'); ce.type = 'text/javascript'; ce.async = true;
+		ce.src = __DOMINIO_CE + '/user.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ce, s);
+	})();
+			</script>
+			<ce:enquete id="5336710" largura="200" altura="200" fonte-pergunta="arial" tamanho-fonte-pergunta="12px" tamanho-fonte-alternativa="12px" cor-fonte-pergunta="black" cor-fonte-alternativa="#666666" cor-botao="black" ver-resultado="true" ></ce:enquete>
+			</article>
+
+			
+		</aside>
+
+
+		<footer class="rodapePrincipal">
+			<h6> Desenvolvido por Tamires </h6>
+			<input type="button" name="imprimir" value="Imprimir" onclick="window.print();">
+		</footer>
+
+	</body>
+
+
+
+
+
+
+</html>
