@@ -12,9 +12,10 @@
 			*{
 				margin: 0;
 				padding:0;
+				
 			}
 			a,h2,h3,h1{
-				font-family: "Alegreya"; 
+				font-family: 'Libre Baskerville', sans-serif;
 			}
 
 			.menu-principal{
@@ -59,25 +60,32 @@
 			}
 
 			.controlando-menu {
-				margin-top: 0px;
+				margin: 0px;
 				display: inline;
+			}
+			main {
+				
 			}
 			main h1{
 				background: rgb(250,150,120);
 				text-align: center;
+				padding-top: 0px;
+				margin-bottom: 0px;
+				padding-top: 15px;
 
 			}
 			main p{
 				background: rgb(250,150,120);
-				margin-top: 10px;
+				margin-top: 0px;
 				font-size: 18px;	
 				padding:50px;
-				margin:0 auto;
+				margin:auto auto;
 				text-align: justify;
+				font-family: 'Libre Baskerville', serif;
 			}
 
 			section {
-				margin-right: 5px;
+				margin: 15px;
 				background: rgb(193,170,132);
 				width: 75%;
 				float: left;
@@ -89,12 +97,21 @@
 				text-align: center;
 				padding-top: 30px;
 				padding-bottom: 20px;
-			}			
+			}	
+			.estrutura {
+				background: #90a4ae;
+				margin: 0px;
+			}
+
 			.noticias {
-				padding-top: 35px;
-				padding-right: 10px;
-				border-right: 3px solid brown;
+				background:#fff59d;
+				margin: 2%;
+				border: 3px solid #cbc26d;
+				border-radius: 10px;
 				
+			}
+			article h3 {
+				padding: 5px;
 			}
 			.noticias img {
 				display: block;
@@ -102,25 +119,52 @@
 				margin: 0px auto;
 			}
 			.noticias p {
-				margin: 5px auto;
-				text-align: center;
+				padding: 0% 5%;
+				text-align: justify;
+				font-family: 'Libre Baskerville', serif;
 			}
 			.noticias a {
-				margin: auto;
 				display: inline;
 				text-align: center;
+				font-family: 'Libre Baskerville', serif;
+			}
+			.noticias a:hover{
+				color: yellow;
+				background: black;
 			}
 
 			.video {
-				margin: 20px 70px;
-				width: 70%; 
+				width: 100%; 
 				height: auto; 
-				border-right: 3px solid brown;
+				background:#fff59d;
+				margin: 2%;
+				border: 3px solid #cbc26d;
+				border-radius: 10px;
+				
+			}
+			article h3 {
+				padding: 5px;
+			
 			}
 
-			.eventos {
-				border-right: 3px solid brown;
+			/*article video {
 
+				height: auto; 
+				background:#fff59d;
+				margin: 5%;
+				border: 3px solid #cbc26d;
+				border-radius: 10px;
+			} */
+
+			.eventos {
+				background:#fff59d;
+				margin: 2%;
+				border: 3px solid #cbc26d;
+				border-radius: 10px;
+				
+			}
+			article h3 {
+				padding: 5px;
 			}
 			.eventos img {
 				display: block;
@@ -128,8 +172,80 @@
 				margin: 0px auto;
 			}
 			.eventos p {
-				margin: 5px 60px;
-				text-align: center;
+				padding: 0% 5%;
+				text-align: justify;
+				font-family: 'Libre Baskerville', serif;
+			}
+
+			.localizacao {
+				background:#fff59d;
+				margin: 2%;
+				border: 3px solid #cbc26d;
+				border-radius: 10px;
+			}
+
+			
+			
+			.contato{
+				background:rgb(250,150,120);
+				margin: 2%;
+				border: 3px solid #c75b39;
+				border-radius: 10px;
+			}
+				
+			.contato p {
+				padding: 0% 5%;
+				text-align: justify;
+				font-family: 'Libre Baskerville', serif;
+			}
+			.form-contato{
+				width: 50%;
+				margin: 30px auto;
+				display: block;
+				position: center;
+			}
+			.form-contato .bloco{
+				width: 46%;
+				float: left;
+				padding:10px;
+			}
+
+			.form-contato .bloco.parte-um{
+				
+			}			
+			.form-contato .bloco.parte-dois{
+				
+			}
+			.form-contato .bloco input,.form-contato .bloco textarea {
+				width: 100%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				box-sizing: border-box;
+				border-radius: 4px;
+			}
+			.contato h2{
+				padding: 5px;
+				color: black;
+				font-size: 24px;
+				
+			}
+			.form-contato .enviar{
+				background: green;
+				width: 100%;
+				display: block;
+				border:0;
+				height: 60px;
+				color: #fff;
+				font-size: 24px;
+			}
+			.form-contato .enviar:hover{
+				background: #fff;
+				font-size: 26px;
+				color: green;
+			}
+			.contato img{
+				display: block;
+				margin: 0 auto;
 			}
 
 			aside {
@@ -149,6 +265,7 @@
 			}
 
 			h6 {
-				font-family: 'Indie Flower';
+				font-family: 'Indie Flower',cursive;
+				
 			
 			}

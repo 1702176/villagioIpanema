@@ -3,14 +3,15 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Condomínio Villagio Ipamena 1</title>
-		<meta name="description" content="Em 2018, foi liberado para a construção o condomínio Villagio Ipanema. Localizado próximo à Cruz de Ferro da Avenida Ipanema, o condomínio possui" />
+		<meta name="description" content="Em 2018, foi liberado para a construção o condomínio Villagio Ipanema. Localizado próximo à Cruz de Ferro da Avenida Ipanema, o condomínio possui 694 lotes para casas residenciais e mais 330 lotes para fins comerciais." />
 	    <meta name="keywords" content="condomínio, associação de morador, Villagio Ipamena" />
 	    <meta name="author" content="Tamires Araujo" />
 		<link rel="icon" type="image/jpg" href="logo.jpg" />
 		<link rel="stylesheet" type="text/css" href="css/estiloprincipal.css" />	
 		<!--<link rel="stylesheet" type="text/css" href="css/estilow500.css" media="only screen and (max-width: 500px);" />	
 		<link rel="stylesheet" href="print.css" type="text/css" media="print"> -->
-
+		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 		
 	</head>
 	<link type="image/png" href="img/icon.png" rel="shortcut icon" />
@@ -23,7 +24,6 @@
 			<label for="control-nav" class="control-nav-close"></label>
 			<nav class="controlando-menu">
 			<ul>
-				<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
 				<li><a href="pg/sobre.html"><i class="fa fa-user-o" aria-hidden="true"></i> Área do Morador</a></li>
 				<li><a href="#contato"><i class="fa fa-envelope-open-o" aria-hidden="true"></i> Fale com o corpo diretivo</a></li> 
 			</ul>
@@ -55,23 +55,44 @@
 				</footer>
 				
 			</article>
-				<h3>Vídeo Institucional</h3>
 			<article class="video">
-				<video autoplay loop poster="imagem/logo.jpg" class="video" controls="">
+				<h3>Vídeo Institucional</h3>
+				<video loop poster="imagem/logo.jpg" class="video" controls="">
  				<source src="video/videoa.mp4" type="video/mp4">
- 				<
-				</video> 
+ 				</video> 
 			</article>
 			<article class="eventos">
 				<h3>Eventos</h3>
 				<img src="img/carnaval.jpg" alt="imagem de carnaval" />
 				<p>No sábado de carnaval, haverá um bloco com música e brincadeiras dentro do condomínio. O bloco carnavalesco percorrerá as principais ruas, levando diversão e alegria a partir das 18h00.</p>
 			</article>	
+				
+			<article class="localizacao">
+				<h3>Nossa Localização</h3>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.273682803539!2d-47.5157148851378!3d-23.45059048473803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f46eba24b1b1%3A0x89b0975ae3732244!2siron+Cross!5e0!3m2!1sen!2sbr!4v1516660440890" width= 100% height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</article>
 
-			<article class="localização">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.273682803539!2d-47.5157148851378!3d-23.45059048473803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f46eba24b1b1%3A0x89b0975ae3732244!2siron+Cross!5e0!3m2!1sen!2sbr!4v1516660440890" width= 100% height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</article>		
+			<article class="contato">
+				<h2>Fale com os nosso Conselho e Diretoria</h2>
+				<p>Se você tem uma sugestão para tornar nossa convivência em comunidade melhor, por favor nos diga. Assim como, se acaso tiver, alguma reclamação ou comentário a fazer sobre nos serviços e ocorrências em nosso condomínio não deixe de nos informar:
+				</p>
+				<form name="frmContato">
+					<div class="parte-um bloco">
+						<input type="text" name="nome" placeholder="Nome" />
+						<input type="email" name="email" placeholder="Email" />
+						<input type="number" name="telefone" placeholder="Telefone" />
+					</div>
+
+					<div class="parte-dois bloco ">		
+							<textarea placeholder="Mensagem" name="mensagem" rows="9" cols="50"></textarea>
+					</div>
+					<button type="submit" class="enviar" onclick="alert('Obrigado, mensagem enviada com sucesso!');">ENVIAR MENSAGEM</button>
+				</form>
+			</article>
+
+
 		</section>
+
 
 		<aside>
 
